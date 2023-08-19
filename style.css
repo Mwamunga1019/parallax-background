@@ -1,0 +1,119 @@
+* {
+    /* border: 2px solid red; */
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    
+    
+    
+}
+
+/* background is now fixed to the view port rather than their section */
+
+section {
+  background-attachment: fixed;
+
+}
+
+.sally1 {
+    height: 100vh;
+    background-image: url(./images/sally_1.jpg);
+    background-size: cover;
+}
+
+.sally2 {
+    height: 100vh;
+    background-image: url(./images/sally_2.jpg);
+    background-size: cover;
+}
+
+
+.sally3 {
+    height: 100vh;
+    background-image: url(./images/sally_3.jpg);
+    background-size: cover;
+}
+
+
+.sally4 {
+    height: 100vh;
+    background-image: url(./images/sally_4.jpg);
+    background-size: cover;
+}
+
+
+a {
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0;
+    transition-property: all;
+    transition-duration: 1s;
+    
+}
+
+header {
+    position: fixed;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.header {
+    font-size: 25px;
+    
+    
+}
+
+.container1 {
+    color: white; 
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+
+}
+
+a:hover {
+    color: rgb(136, 128, 128);
+    
+}
+
+@media (max-width: 480px) {
+    .item {
+        height: 50vh;
+        
+    }
+
+    footer {
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        font-size: 12px;
+    
+    }
+
+    .header {
+        font-size: 20px;
+        
+        
+    }
+
+    .slogan {
+        font-size: 12px;
+    }
+  
+}
+
+@media (max-width: 171px) {
+    .linkedin {
+        display: none;
+    }
+
+    .container2 {
+        padding:2px  20px;
+    }
+}
